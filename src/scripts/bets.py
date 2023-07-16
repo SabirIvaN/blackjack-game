@@ -1,3 +1,4 @@
+# Function for taking bets
 def take_bet(chips):
     while True:
         try:

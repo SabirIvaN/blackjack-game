@@ -1,7 +1,9 @@
+# Function for taking hits
 def hit(deck, hand):
     hand.add_card(deck.deal())
     hand.adjust_for_ace()
 
+# Function prompting the Player to Hit or Stand
 def hit_or_stand(deck, hand):
     global playing
     while True:
